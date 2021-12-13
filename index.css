@@ -306,10 +306,15 @@ address {
     columns: 2;
     list-style-position: inside;
     list-style-type: none;
+    
+    
+    
 }
 .footerinfolist a{
     color: white;
     text-decoration: none;
+    line-height: 2.5rem;
+    padding-right: 6rem;
 }
 .footerinfolist a:hover{
     color: white;
@@ -335,7 +340,7 @@ address {
 
 .footerinfolist2 li{
     display: inline;
-    margin-left: 0.5rem;  
+    margin-left: 1rem;  
     font-size: 2rem;
     color: white;
   
@@ -351,7 +356,7 @@ address {
 }
 
 .attribution{
-    margin-top: 2rem;
+    margin-top: 9rem;
 }
 .attribution a:hover{
     color: hsl(322, 100%, 66%);
