@@ -367,8 +367,7 @@ address {
     h2,
     h3, 
     p {
-    text-align: center;
-    margin: 3rem;
+    text-align: center !important;
     width: 20rem;
     }
     .grid{
@@ -416,4 +415,42 @@ address {
         margin-right: auto;
         
         }
+    .Box-1{
+        position: grid;
+    }
+
+        .Box-1 > div{
+
+            grid-template-columns: 400px;
+            height: 600px;
+            display: inline-block;
+        
+        }
+
+        .Box-1 > div > img{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            overflow: auto;    
+        }
+            
+       .Box-3 > h2, .Box-3 > p{
+           display: flex;
+           justify-content: center;
+           position: relative;
+           overflow: auto;  
+       }
+       .Box-6 > h2, .Box-6 > p{
+           display: flex;
+           justify-content: center;
+           position: relative;
+           overflow: auto;   
+       }
+       .Box-7 > h2, .Box-7 > p{
+           display: flex;
+           justify-content: center;
+           position: relative;
+           overflow: auto;   
+       }
+
 }
