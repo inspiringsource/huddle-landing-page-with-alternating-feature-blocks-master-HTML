@@ -192,7 +192,7 @@ margin-right: auto;
     padding: 1rem;
 }
 .main-img {
-width: 70%;
+width: 22rem;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -362,7 +362,15 @@ address {
     color: hsl(322, 100%, 66%);
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 770px) {
+    h1,
+    h2,
+    h3, 
+    p {
+    text-align: center;
+    margin: 3rem;
+    width: 20rem;
+    }
     .grid{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -401,4 +409,11 @@ address {
         flex-direction: column;
         
     }
+    .main-img {
+        width: 14rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        }
 }
